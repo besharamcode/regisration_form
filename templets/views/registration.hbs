@@ -1,0 +1,49 @@
+{{>header}}
+
+<div class="card flex">
+    <div class="cardHeader flex">
+       <h2>Welcome To Book Besharam</h2> 
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nobis quisquam libero aliquam omnis consequatur</p>
+       <img src="/images/clip-welcome.png" alt="">
+    </div>
+    <div class="form">
+    <form action="/registration" method="post" >
+        <div class="name flex">
+        <div class="form-group">
+            <input name="firstName" type="text" placeholder="First Name">
+        </div>
+        <div class="form-group">
+            <input name="lastName" type="text" placeholder="Last Name">
+        </div>
+        </div>
+        <div class="age flex">
+        <div class="form-group">
+            <input name="age" type="number" placeholder="Age">
+        </div>
+        <div class="radioGroup flex" >
+            <input class="radioBtn" type="radio" name="gender" value="man" id="Man"><label for="Man" class="">:  Man</label>
+            <input class="radioBtn" type="radio" name="gender" value="woman" id="Woman"><label for="Woman" class="">:  Woman</label>
+        </div>
+        </div>
+        <div class="email flex">
+        <div class="form-group">
+            <input name="email" type="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <input name="phone" type="number" placeholder="Phone">
+        </div>
+        </div>
+        <div class="password flex">
+        <div class="form-group">
+            <input name="password" type="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <input name="conPassword" type="password" placeholder="Confirme Password">
+        </div>
+        </div>
+        <button type="submit" id="btn" class="flex">Submit</button>
+    </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Yeon+Sung&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Yeon Sung', cursive;
+    background: url(https://getwallpapers.com/wallpaper/full/4/2/b/168477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.flex{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+header{
+    color: white;
+    padding: 1rem;
+}
+
+.logo{
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    flex-direction: column;
+} 
+.logo i{
+    position: relative;
+    top: 1rem;
+    font-size: 2rem;
+}
+
+.navbar{
+    margin-right: 4rem;
+    font-size: 2rem;
+}
+
+li{
+    list-style: none;
+    margin: 1rem;
+}
+
+li a{
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+}
+
+li a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.card{
+    background: white;
+    justify-content: center;
+    font-family: 'Yeon Sung', cursive;
+    margin:10rem auto;
+    width: 65%;
+}
+
+.cardHeader{
+    border-right: .1rem solid black;
+
+    padding: 3rem;
+    flex-direction: column;
+    width: 40%;
+    font-size: 2rem;
+}
+
+.cardHeader p{
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cardHeader img{
+    width: 13rem;
+    padding: 3rem;
+}
+
+form{
+    padding: 3rem;
+    width: 48rem;
+    background-color:#9ec2fb;
+}
+
+form input{
+    width: 17rem;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: .4rem;
+    outline: none;
+    box-shadow: 0rem 0.1rem 0.01rem 0.1rem #b2b2b2;
+}
+
+.radioGroup{
+    align-items: center;
+    width: 20rem;
+    justify-content: flex-start;
+}
+
+.radioGroup label{
+font-size: 1.5rem;
+}
+
+
+.radioBtn{
+    margin: .5rem;
+    padding: 0rem;
+    width: auto;
+    box-shadow: none;
+}
+
+#btn{
+    padding: .8rem 1rem;
+    border-radius: .3rem;
+    background-color: #ffffff;
+    border: none;
+    margin: auto;
+
+}
+
+
+.login-form{
+    margin: auto;
+}
+
+.login-form input{
+    display: block;
+
+    margin: 3rem auto;
+}
+
+.login-form h2{
+    font-size: 2rem;
+    text-align: center;
+}
