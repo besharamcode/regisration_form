@@ -71,8 +71,6 @@ li a:hover{
 }
 
 .cardHeader{
-    border-right: .1rem solid black;
-
     padding: 3rem;
     flex-direction: column;
     width: 40%;
@@ -91,8 +89,11 @@ li a:hover{
 }
 
 form{
+    box-shadow: 0rem 0.1rem 0.8rem 0.0001rem darkgrey;
+    border-radius: 5rem;
     padding: 3rem;
-    width: 48rem;
+    margin: 2rem;
+    width: 45rem;
     background-color:#9ec2fb;
 }
 
