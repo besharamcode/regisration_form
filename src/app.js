@@ -136,23 +136,3 @@ app.post('/login', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running on port ${port}`)
 })
-
-
-// const securepass = async (password)=>{
-//   const hashpass = await bcryptjs.hash(password, 10)
-//   console.log(hashpass)
-//   const matchpass = await bcryptjs.compare(password,'bdfhd')
-//   console.log(matchpass)
-// }
-
-// securepass("BesharamCode")
-
-// const createToken = async ()=>{
-//   const token = jwt.sign({ _id: '63b90cf98614216e580bdc2d' }, "123456789mnbvcxzasdfghjkl;qwertyuiop",{expiresIn:"2 seconds"})
-//   console.log(token)
-
-//   const tokenVar = jwt.verify(token, "123456789mnbvcxzasdfghjkl;qwertyuiop")
-//   console.log(tokenVar)
-// }
-
-// createToken()
